@@ -1,2 +1,2 @@
 # JavaFxDashboard
-Es diseño para
+Es un diseño para un Menu Principal con AnimationFX FontAwesomeFx y SceneBuilder8(Gluon)
