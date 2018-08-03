@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="498.0" prefWidth="417.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane prefHeight="200.0" prefWidth="200.0">
+         <left>
+            <StackPane prefHeight="499.0" prefWidth="297.0" style="-fx-background-color: #005792;" BorderPane.alignment="CENTER">
+               <children>
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <StackPane prefHeight="20.0" prefWidth="308.0" style="-fx-background-color: #13334c;">
+                           <children>
+                              <Text fill="#f6f6e9" strokeType="OUTSIDE" strokeWidth="0.0" text="BIENVENIDOS" textAlignment="RIGHT" wrappingWidth="284.29296875">
+                                 <font>
+                                    <Font name="Calibri Bold" size="40.0" />
+                                 </font>
+                              </Text>
+                              <FontAwesomeIconView fill="#f7ca44" glyphName="GG" size="40" wrappingWidth="286.42857360839844" />
+                           </children>
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding>
+                        </StackPane>
+                        <StackPane>
+                           <children>
+                              <Circle fill="#d5eeff" radius="69.0" stroke="BLACK" strokeType="INSIDE" />
+                              <FontAwesomeIconView glyphName="USER" size="110" />
+                           </children>
+                           <VBox.margin>
+                              <Insets top="20.0" />
+                           </VBox.margin>
+                        </StackPane>
+                        <StackPane prefHeight="262.0" prefWidth="297.0">
+                           <children>
+                              <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Usuario :" textAlignment="CENTER" StackPane.alignment="TOP_CENTER">
+                                 <font>
+                                    <Font name="Book Antiqua" size="17.0" />
+                                 </font>
+                              </Text>
+                              <JFXTextField alignment="CENTER" focusColor="WHITE" StackPane.alignment="TOP_CENTER">
+                                 <font>
+                                    <Font size="17.0" />
+                                 </font>
+                                 <StackPane.margin>
+                                    <Insets top="25.0" />
+                                 </StackPane.margin>
+                                 <padding>
+                                    <Insets bottom="10.0" left="35.0" right="35.0" top="10.0" />
+                                 </padding>
+                              </JFXTextField>
+                              <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Contraseña :" textAlignment="CENTER">
+                                 <font>
+                                    <Font name="Book Antiqua" size="17.0" />
+                                 </font>
+                              </Text>
+                              <JFXPasswordField alignment="CENTER" focusColor="WHITE">
+                                 <font>
+                                    <Font size="17.0" />
+                                 </font>
+                                 <StackPane.margin>
+                                    <Insets top="65.0" />
+                                 </StackPane.margin>
+                                 <padding>
+                                    <Insets bottom="10.0" left="35.0" right="35.0" top="10.0" />
+                                 </padding>
+                              </JFXPasswordField>
+                              <JFXButton alignment="CENTER" contentDisplay="CENTER" prefHeight="44.0" prefWidth="353.0" ripplerFill="#ff3f34" style="-fx-background-color: #fd5f00;" text="INGRESAR" textAlignment="CENTER" textFill="#fcfcfc" StackPane.alignment="BOTTOM_LEFT">
+                                 <font>
+                                    <Font name="System Bold" size="20.0" />
+                                 </font>
+                              </JFXButton>
+                           </children>
+                           <VBox.margin>
+                              <Insets top="30.0" />
+                           </VBox.margin>
+                        </StackPane>
+                     </children>
+                  </VBox>
+               </children>
+            </StackPane>
+         </left>
+         <center>
+            <StackPane prefHeight="453.0" prefWidth="74.0" style="-fx-background-color: #13334c;" BorderPane.alignment="CENTER">
+               <children>
+                  <JFXButton prefHeight="34.0" prefWidth="134.0" text="Login" textFill="WHITE" wrapText="true" StackPane.alignment="TOP_LEFT">
+                     <graphic>
+                        <FontAwesomeIconView fill="WHITE" glyphName="USER" size="22" wrappingWidth="38.285715103149414" />
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton prefHeight="34.0" prefWidth="126.0" text="Registrate" textFill="WHITE" wrapText="true" StackPane.alignment="TOP_LEFT">
+                     <graphic>
+                        <FontAwesomeIconView fill="WHITE" glyphName="BOOK" size="22" />
+                     </graphic>
+                     <StackPane.margin>
+                        <Insets top="30.0" />
+                     </StackPane.margin>
+                  </JFXButton>
+               </children></StackPane>
+         </center>
+      </BorderPane>
+   </children>
+</StackPane>
